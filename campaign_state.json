@@ -9,8 +9,8 @@
         "current_hour": 17
     },
     "location": {
-        "current_region": "The Smog-Shrouded Spires of Aethelgard",
-        "nearest_settlement": "Clockwork District - Temporary Safehouse"
+        "current_region": "Clockwork District",
+        "nearest_settlement": "Unlisted Iron Syndicate Warehouse"
     },
     "entities": [
         {
@@ -70,8 +70,8 @@
                 "The Dead Walk",
                 "Relentless Dispelling"
             ],
-            "x": 1,
-            "y": 4,
+            "x": 5,
+            "y": 5,
             "image": "kaelen.jpg"
         },
         {
@@ -118,8 +118,8 @@
                 "Improved Initiative",
                 "Spell Focus (Necromancy)"
             ],
-            "x": 2,
-            "y": 4,
+            "x": 5,
+            "y": 9,
             "image": "lyra.jpg"
         },
         {
@@ -163,53 +163,97 @@
                 "Multiattack",
                 "Improved Natural Attack (Claws)"
             ],
-            "x": 1,
-            "y": 1,
+            "x": 5,
+            "y": 10,
             "image": "grom.jpg"
         },
         {
-            "id": "goblin_1",
-            "name": "Clockwork Goblin 1",
-            "role": "Enemy",
+            "id": "party_member_3",
+            "name": "Vex",
+            "role": "NPC Companion (Winged Fey'ri Gunslinger)",
+            "level": 3,
+            "max_hp": 22,
+            "current_hp": 22,
+            "x": 5,
+            "y": 7,
+            "image": "vex.jpg"
+        },
+        {
+            "id": "party_member_4",
+            "name": "Flay",
+            "role": "NPC Companion (Half-Illithid Blue Psion)",
+            "level": 3,
+            "max_hp": 14,
+            "current_hp": 14,
+            "x": 6,
+            "y": 9,
+            "image": "flay.jpg"
+        },
+        {
+            "id": "party_member_5",
+            "name": "Vivisect",
+            "role": "NPC Companion (Insectoid Imp Vivisectionist)",
+            "level": 3,
+            "max_hp": 16,
+            "current_hp": 16,
+            "x": 2,
+            "y": 2,
+            "image": "vivisect.jpg"
+        },
+        {
+            "id": "npc_silas",
+            "name": "Silas",
+            "role": "NPC (Iron Syndicate)",
             "level": 2,
             "max_hp": 12,
             "current_hp": 12,
-            "image": "goblin.jpg",
-            "x": 0,
-            "y": 1
+            "x": 5,
+            "y": 4,
+            "image": "silas.jpg"
         },
         {
-            "id": "goblin_2",
-            "name": "Clockwork Goblin 2",
-            "role": "Enemy",
+            "id": "npc_guard_1",
+            "name": "Deafened Syndicate Guard",
+            "role": "NPC",
             "level": 2,
-            "max_hp": 12,
-            "current_hp": 7,
-            "image": "goblin.jpg",
-            "x": 1,
-            "y": 0
+            "max_hp": 15,
+            "current_hp": 15,
+            "x": 4,
+            "y": 4,
+            "image": "guard.jpg"
         },
         {
-            "id": "goblin_3",
-            "name": "Clockwork Goblin 3",
-            "role": "Enemy",
+            "id": "npc_guard_2",
+            "name": "Deafened Syndicate Guard",
+            "role": "NPC",
             "level": 2,
-            "max_hp": 12,
-            "current_hp": 2,
-            "image": "goblin.jpg",
-            "x": 2,
-            "y": 1
+            "max_hp": 15,
+            "current_hp": 15,
+            "x": 6,
+            "y": 4,
+            "image": "guard.jpg"
         },
         {
-            "id": "goblin_4",
-            "name": "Clockwork Goblin 4",
-            "role": "Enemy",
+            "id": "npc_guard_3",
+            "name": "Deafened Syndicate Guard",
+            "role": "NPC",
             "level": 2,
-            "max_hp": 12,
-            "current_hp": 2,
-            "image": "goblin.jpg",
-            "x": 3,
-            "y": 1
+            "max_hp": 15,
+            "current_hp": 15,
+            "x": 5,
+            "y": 3,
+            "image": "guard.jpg"
+        },
+        {
+            "id": "npc_guard_4",
+            "name": "Deafened Syndicate Guard",
+            "role": "NPC",
+            "level": 2,
+            "max_hp": 15,
+            "current_hp": 15,
+            "x": 4,
+            "y": 3,
+            "image": "guard.jpg"
         }
     ],
     "factions": [
