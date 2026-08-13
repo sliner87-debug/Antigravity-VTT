@@ -54,9 +54,11 @@ button:hover {
   width: calc(var(--grid-size) * var(--map-width));
   height: calc(var(--grid-size) * var(--map-height));
   background-image: 
-    linear-gradient(rgba(168, 126, 52, 0.2) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(168, 126, 52, 0.2) 1px, transparent 1px);
-  background-size: var(--grid-size) var(--grid-size);
+    linear-gradient(rgba(255,255,255,0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.2) 1px, transparent 1px),
+    url('assets/battlemap.jpg');
+  background-size: var(--grid-size) var(--grid-size), var(--grid-size) var(--grid-size), cover;
+  background-position: top left, top left, center;
   border: 2px solid #a87e34;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
   background-color: #1a1a1a;

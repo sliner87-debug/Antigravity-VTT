@@ -4,7 +4,7 @@ const connectBtn = document.getElementById('connect-btn');
 const repoInput = document.getElementById('repo-input');
 
 let pollInterval = null;
-const GRID_SIZE = 50; 
+const GRID_SIZE = 100; 
 let knownEntities = {};
 
 function log(msg) {
@@ -96,3 +96,8 @@ connectBtn.addEventListener('click', () => {
     connectBtn.textContent = "Connected (Polling)";
     connectBtn.style.backgroundColor = "#5a8f2b";
 });
+
+// Auto-connect if the default repo is present
+if (repoInput.value && repoInput.value !== "Username/RepoName") {
+    connectBtn.click();
+}
