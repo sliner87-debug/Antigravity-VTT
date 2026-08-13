@@ -70,8 +70,9 @@
                 "The Dead Walk",
                 "Relentless Dispelling"
             ],
-            "x": 5,
-            "y": 5
+            "x": 1,
+            "y": 4,
+            "image": "kaelen.jpg"
         },
         {
             "id": "party_member_1",
@@ -117,8 +118,9 @@
                 "Improved Initiative",
                 "Spell Focus (Necromancy)"
             ],
-            "x": 0,
-            "y": 0
+            "x": 2,
+            "y": 4,
+            "image": "lyra.jpg"
         },
         {
             "id": "party_member_2",
@@ -161,147 +163,53 @@
                 "Multiattack",
                 "Improved Natural Attack (Claws)"
             ],
-            "x": 0,
-            "y": 0
+            "x": 3,
+            "y": 4,
+            "image": "grom.jpg"
         },
         {
-            "id": "party_member_3",
-            "name": "Vivisect",
-            "role": "NPC Companion (Insectoid Imp Vivisectionist)",
-            "level": 3,
-            "max_hp": 24,
-            "current_hp": 24,
-            "ac": {
-                "total": 22,
-                "touch": 20,
-                "flat_footed": 14
-            },
-            "stats": {
-                "STR": 14,
-                "DEX": 26,
-                "CON": 16,
-                "INT": 22,
-                "WIS": 20,
-                "CHA": 20
-            },
-            "inventory": [
-                "Surgical Scalpels (x6)",
-                "Masterwork Studded Leather Armor",
-                "Bandolier of Alchemist's Fire (x4)",
-                "Tanglefoot Bag (x2)",
-                "Thieves' Tools (Masterwork)",
-                "Formula Book",
-                "Potion of Invisibility",
-                "1,400 GP"
-            ],
-            "skills": [
-                "Heal",
-                "Craft (Alchemy)",
-                "Sleight of Hand",
-                "Stealth",
-                "Disable Device"
-            ],
-            "feats": [
-                "Weapon Finesse",
-                "Throw Anything",
-                "Brew Potion",
-                "Two-Weapon Fighting"
-            ],
+            "id": "goblin_1",
+            "name": "Clockwork Goblin 1",
+            "role": "Enemy",
+            "level": 2,
+            "max_hp": 12,
+            "current_hp": 12,
+            "image": "goblin.jpg",
             "x": 0,
-            "y": 0
+            "y": 1
         },
         {
-            "id": "party_member_4",
-            "name": "Vex",
-            "role": "NPC Companion (Winged Fey'ri Gunslinger)",
-            "level": 3,
-            "max_hp": 28,
-            "current_hp": 28,
-            "ac": {
-                "total": 19,
-                "touch": 16,
-                "flat_footed": 13
-            },
-            "stats": {
-                "STR": 16,
-                "DEX": 22,
-                "CON": 14,
-                "INT": 18,
-                "WIS": 18,
-                "CHA": 26
-            },
-            "inventory": [
-                "Runic Revolvers (x2)",
-                "Gunsmith's Kit",
-                "Tattered Trenchcoat",
-                "Masterwork Studded Leather Armor",
-                "Alchemical Black-Powder Cartridges (x50)",
-                "Alchemical Silver Bullets (x10)",
-                "Dagger (Concealed)",
-                "Spyglass",
-                "Potion of Cure Light Wounds (x3)",
-                "1,150 GP"
-            ],
-            "skills": [
-                "Acrobatics",
-                "Perception",
-                "Intimidate",
-                "Craft (Firearms)",
-                "Bluff",
-                "Fly"
-            ],
-            "feats": [
-                "Gunsmithing",
-                "Point-Blank Shot",
-                "Precise Shot",
-                "Deadly Aim",
-                "Two-Weapon Fighting"
-            ],
-            "x": 0,
-            "y": 0
+            "id": "goblin_2",
+            "name": "Clockwork Goblin 2",
+            "role": "Enemy",
+            "level": 2,
+            "max_hp": 12,
+            "current_hp": 12,
+            "image": "goblin.jpg",
+            "x": 1,
+            "y": 1
         },
         {
-            "id": "party_member_5",
-            "name": "Flay",
-            "role": "NPC Companion (Half-Illithid Blue Psion)",
-            "level": 3,
-            "max_hp": 24,
-            "current_hp": 24,
-            "ac": {
-                "total": 14,
-                "touch": 13,
-                "flat_footed": 11
-            },
-            "stats": {
-                "STR": 14,
-                "DEX": 16,
-                "CON": 16,
-                "INT": 22,
-                "WIS": 20,
-                "CHA": 18
-            },
-            "inventory": [
-                "Mind-Crystal Focus",
-                "Dorje of Energy Ray (15 charges)",
-                "Psicrown of the Evader (Minor)",
-                "Silk Robes",
-                "Psionic Tattoo of Vigor (x3)",
-                "1,500 GP"
-            ],
-            "skills": [
-                "Knowledge (Psionics, Local, Dungeoneering)",
-                "Spellcraft",
-                "Autohypnosis",
-                "Bluff",
-                "Intimidate"
-            ],
-            "feats": [
-                "Psionic Talent",
-                "Overchannel",
-                "Talented"
-            ],
-            "x": 0,
-            "y": 0
+            "id": "goblin_3",
+            "name": "Clockwork Goblin 3",
+            "role": "Enemy",
+            "level": 2,
+            "max_hp": 12,
+            "current_hp": 12,
+            "image": "goblin.jpg",
+            "x": 2,
+            "y": 1
+        },
+        {
+            "id": "goblin_4",
+            "name": "Clockwork Goblin 4",
+            "role": "Enemy",
+            "level": 2,
+            "max_hp": 12,
+            "current_hp": 12,
+            "image": "goblin.jpg",
+            "x": 3,
+            "y": 1
         }
     ],
     "factions": [

@@ -1,7 +1,7 @@
 :root {
-  --grid-size: 50px;
-  --map-width: 20;
-  --map-height: 20;
+  --grid-size: 100px;
+  --map-width: 5;
+  --map-height: 5;
 }
 
 body {
@@ -68,13 +68,15 @@ button:hover {
   height: calc(var(--grid-size) - 4px);
   border-radius: 50%;
   background-color: #555;
+  background-size: cover;
+  background-position: center;
   border: 2px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   font-size: 10px;
-  color: #fff;
+  color: transparent; /* hide text if image exists */
   text-align: center;
   transition: transform 0.5s ease-in-out;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);

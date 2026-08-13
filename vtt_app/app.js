@@ -21,13 +21,18 @@ function updateToken(entity) {
     if (!token) {
         token = document.createElement('div');
         token.id = `token-${entity.id}`;
-        token.className = `token ${entity.role.toLowerCase().includes('player') ? 'player' : 'npc'}`;
+        token.className = `token ${entity.role.toLowerCase().includes('player') || entity.role.toLowerCase().includes('npc companion') ? 'player' : 'npc'}`;
         token.textContent = entity.name.substring(0, 4);
         token.title = `${entity.name}\nHP: ${entity.current_hp}/${entity.max_hp}`;
         mapContainer.appendChild(token);
         log(`Spawned token for ${entity.name}`);
     } else {
         token.title = `${entity.name}\nHP: ${entity.current_hp}/${entity.max_hp}`;
+    }
+    
+    if (entity.image) {
+        token.style.backgroundImage = `url('assets/${entity.image}')`;
+        token.textContent = ''; // Clear text if image exists
     }
 
     // Determine grid coordinates (defaulting to 0 if missing)
