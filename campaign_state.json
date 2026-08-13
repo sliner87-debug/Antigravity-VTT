@@ -1,0 +1,336 @@
+{
+    "campaign_info": {
+        "name": "The Elemental Chronicles",
+        "system": "Pathfinder 1E (w/ 3.5e Supplements)",
+        "setting": "Grimdark, High Fantasy / Eberron-style Primitive Magi-tech"
+    },
+    "time": {
+        "current_day": 1,
+        "current_hour": 17
+    },
+    "location": {
+        "current_region": "The Smog-Shrouded Spires of Aethelgard",
+        "nearest_settlement": "Clockwork District - Temporary Safehouse"
+    },
+    "entities": [
+        {
+            "id": "player_1",
+            "name": "Kaelen",
+            "role": "Player (Phrenic Pixie Warlock)",
+            "level": 6,
+            "max_hp": 31,
+            "current_hp": 31,
+            "ac": {
+                "total": 24,
+                "touch": 18,
+                "flat_footed": 16
+            },
+            "stats": {
+                "STR": 12,
+                "DEX": 24,
+                "CON": 16,
+                "INT": 22,
+                "WIS": 22,
+                "CHA": 32
+            },
+            "inventory": [
+                "Bag of Holding Type IV",
+                "Runic Focus Wand",
+                "Pixie Dust",
+                "Healing Salve",
+                "Unrefined Elemental Dragonshards (10 lbs)",
+                "Iron Syndicate Ledgers",
+                "1,852 GP (and 5 SP)",
+                "Alchemical Silks (Size-Adjusting)",
+                "Runic Mantle (Chasuble of Fell Power)",
+                "5 Chunks of Refined Elemental Dragonshard",
+                "2 Masterwork Runic Pistols",
+                "6 Potions of Cure Moderate Wounds",
+                "1 Crate of Morrgoth's Black-Tar Thins (100 Cartons)"
+            ],
+            "skills": [
+                "Bluff",
+                "Diplomacy",
+                "Stealth",
+                "Use Magic Device",
+                "Fly",
+                "Intimidate"
+            ],
+            "feats": [
+                "Fey Heritage (Free)",
+                "Point-Blank Shot",
+                "Precise Shot",
+                "Improved Flyby Attack",
+                "Multiattack"
+            ],
+            "invocations": [
+                "Eldritch Spear",
+                "See the Unseen",
+                "Baleful Utterance",
+                "The Dead Walk",
+                "Relentless Dispelling"
+            ],
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "party_member_1",
+            "name": "Lyra",
+            "role": "NPC Companion (Grave-Touched Drow Noble Archivist)",
+            "level": 3,
+            "max_hp": 24,
+            "current_hp": 24,
+            "ac": {
+                "total": 20,
+                "touch": 17,
+                "flat_footed": 13
+            },
+            "stats": {
+                "STR": 18,
+                "DEX": 24,
+                "CON": 0,
+                "INT": 20,
+                "WIS": 22,
+                "CHA": 20
+            },
+            "inventory": [
+                "Dark Knowledge Lexicon",
+                "Breastplate",
+                "Scroll Case",
+                "Masterwork Heavy Mace",
+                "Wand of Cure Light Wounds (50 charges)",
+                "Scroll of Comprehend Languages",
+                "Scroll of Ray of Enfeeblement",
+                "Silver Holy Symbol",
+                "Scholar's Outfit",
+                "1,300 GP"
+            ],
+            "skills": [
+                "Knowledge (Arcana, Religion, Planes)",
+                "Spellcraft",
+                "Heal",
+                "Sense Motive",
+                "Stealth"
+            ],
+            "feats": [
+                "Scribe Scroll",
+                "Improved Initiative",
+                "Spell Focus (Necromancy)"
+            ],
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "party_member_2",
+            "name": "Grom",
+            "role": "NPC Companion (Feral Half-Minotaur Half-Dragon Totemist)",
+            "level": 3,
+            "max_hp": 50,
+            "current_hp": 50,
+            "ac": {
+                "total": 22,
+                "touch": 10,
+                "flat_footed": 21
+            },
+            "stats": {
+                "STR": 40,
+                "DEX": 12,
+                "CON": 26,
+                "INT": 12,
+                "WIS": 18,
+                "CHA": 18
+            },
+            "inventory": [
+                "Incarnum Focus Bands",
+                "Leather Duster",
+                "Clockwork Lenses",
+                "Amulet of Mighty Fists +1",
+                "Masterwork Greataxe",
+                "Potion of Enlarge Person (x2)",
+                "Climber's Kit",
+                "1,250 GP"
+            ],
+            "skills": [
+                "Survival",
+                "Perception",
+                "Intimidate",
+                "Climb"
+            ],
+            "feats": [
+                "Power Attack",
+                "Multiattack",
+                "Improved Natural Attack (Claws)"
+            ],
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "party_member_3",
+            "name": "Vivisect",
+            "role": "NPC Companion (Insectoid Imp Vivisectionist)",
+            "level": 3,
+            "max_hp": 24,
+            "current_hp": 24,
+            "ac": {
+                "total": 22,
+                "touch": 20,
+                "flat_footed": 14
+            },
+            "stats": {
+                "STR": 14,
+                "DEX": 26,
+                "CON": 16,
+                "INT": 22,
+                "WIS": 20,
+                "CHA": 20
+            },
+            "inventory": [
+                "Surgical Scalpels (x6)",
+                "Masterwork Studded Leather Armor",
+                "Bandolier of Alchemist's Fire (x4)",
+                "Tanglefoot Bag (x2)",
+                "Thieves' Tools (Masterwork)",
+                "Formula Book",
+                "Potion of Invisibility",
+                "1,400 GP"
+            ],
+            "skills": [
+                "Heal",
+                "Craft (Alchemy)",
+                "Sleight of Hand",
+                "Stealth",
+                "Disable Device"
+            ],
+            "feats": [
+                "Weapon Finesse",
+                "Throw Anything",
+                "Brew Potion",
+                "Two-Weapon Fighting"
+            ],
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "party_member_4",
+            "name": "Vex",
+            "role": "NPC Companion (Winged Fey'ri Gunslinger)",
+            "level": 3,
+            "max_hp": 28,
+            "current_hp": 28,
+            "ac": {
+                "total": 19,
+                "touch": 16,
+                "flat_footed": 13
+            },
+            "stats": {
+                "STR": 16,
+                "DEX": 22,
+                "CON": 14,
+                "INT": 18,
+                "WIS": 18,
+                "CHA": 26
+            },
+            "inventory": [
+                "Runic Revolvers (x2)",
+                "Gunsmith's Kit",
+                "Tattered Trenchcoat",
+                "Masterwork Studded Leather Armor",
+                "Alchemical Black-Powder Cartridges (x50)",
+                "Alchemical Silver Bullets (x10)",
+                "Dagger (Concealed)",
+                "Spyglass",
+                "Potion of Cure Light Wounds (x3)",
+                "1,150 GP"
+            ],
+            "skills": [
+                "Acrobatics",
+                "Perception",
+                "Intimidate",
+                "Craft (Firearms)",
+                "Bluff",
+                "Fly"
+            ],
+            "feats": [
+                "Gunsmithing",
+                "Point-Blank Shot",
+                "Precise Shot",
+                "Deadly Aim",
+                "Two-Weapon Fighting"
+            ],
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "party_member_5",
+            "name": "Flay",
+            "role": "NPC Companion (Half-Illithid Blue Psion)",
+            "level": 3,
+            "max_hp": 24,
+            "current_hp": 24,
+            "ac": {
+                "total": 14,
+                "touch": 13,
+                "flat_footed": 11
+            },
+            "stats": {
+                "STR": 14,
+                "DEX": 16,
+                "CON": 16,
+                "INT": 22,
+                "WIS": 20,
+                "CHA": 18
+            },
+            "inventory": [
+                "Mind-Crystal Focus",
+                "Dorje of Energy Ray (15 charges)",
+                "Psicrown of the Evader (Minor)",
+                "Silk Robes",
+                "Psionic Tattoo of Vigor (x3)",
+                "1,500 GP"
+            ],
+            "skills": [
+                "Knowledge (Psionics, Local, Dungeoneering)",
+                "Spellcraft",
+                "Autohypnosis",
+                "Bluff",
+                "Intimidate"
+            ],
+            "feats": [
+                "Psionic Talent",
+                "Overchannel",
+                "Talented"
+            ],
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "factions": [
+        {
+            "id": "faction_1",
+            "name": "The Iron Syndicate",
+            "type": "Magi-tech Smugglers",
+            "leader": "Baron Silas Vane",
+            "resources": 500,
+            "current_objective": "Monopolize aether-crystal trade in the lower districts",
+            "status": "Active"
+        },
+        {
+            "id": "faction_2",
+            "name": "Order of the Arcane Flame",
+            "type": "Militant Purists",
+            "leader": "High Inquisitor Voss",
+            "resources": 1000,
+            "current_objective": "Eradicate unregulated magi-tech devices",
+            "status": "Active"
+        },
+        {
+            "id": "faction_3",
+            "name": "Cult of Xoriat",
+            "type": "Insane Cultists",
+            "leader": "20-Face (Cultist Leader, Half-Xoriat)",
+            "resources": 4000,
+            "current_objective": "Find and retrieve the 5 Pieces of the Far-Realm Gate Artifact.",
+            "status": "Active"
+        }
+    ]
+}

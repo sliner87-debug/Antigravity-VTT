@@ -1,0 +1,107 @@
+:root {
+  --grid-size: 50px;
+  --map-width: 20;
+  --map-height: 20;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #eee;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: #222;
+  width: 100%;
+  border-bottom: 2px solid #a87e34; /* brass accent */
+  box-shadow: 0 0 10px rgba(168, 126, 52, 0.5);
+}
+
+.controls {
+  margin: 10px 0;
+}
+
+input, button {
+  background: #333;
+  color: #fff;
+  border: 1px solid #a87e34;
+  padding: 8px 12px;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: #a87e34;
+  color: #000;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #cba052;
+}
+
+#map-container {
+  margin-top: 20px;
+  position: relative;
+  width: calc(var(--grid-size) * var(--map-width));
+  height: calc(var(--grid-size) * var(--map-height));
+  background-image: 
+    linear-gradient(rgba(168, 126, 52, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168, 126, 52, 0.2) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  border: 2px solid #a87e34;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  background-color: #1a1a1a;
+}
+
+.token {
+  position: absolute;
+  width: calc(var(--grid-size) - 4px);
+  height: calc(var(--grid-size) - 4px);
+  border-radius: 50%;
+  background-color: #555;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  margin: 2px;
+}
+
+/* Distinct token styles */
+.token.player {
+  background-color: #2b5c8f;
+  border-color: #6bb0ff;
+}
+
+.token.npc {
+  background-color: #7b2b2b;
+  border-color: #ff6b6b;
+}
+
+.log-panel {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 800px;
+  background: #000;
+  border: 1px solid #444;
+  padding: 10px;
+  height: 150px;
+  overflow-y: auto;
+  font-size: 0.9em;
+  color: #888;
+}

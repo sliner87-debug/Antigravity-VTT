@@ -1,0 +1,29 @@
+# How to Set Up Your AI Dungeon Master (Explain Like I'm 15)
+
+Hey! You've got this folder full of files. Here is exactly what you do to get your Pathfinder/D&D game running on your other PC with Google Antigravity.
+
+### Step 1: Put the Files in the Right Place
+1. Take this entire folder (`Antigravity TTRPG DM` or `rpg_setup`) and put it somewhere easy to find on your other PC, like your Documents folder or an Antigravity workspace folder.
+
+### Step 2: Set Up the Main DM Agent
+1. Open Google Antigravity on the other PC.
+2. Start a new chat/agent. This will be your Dungeon Master.
+3. Open the `prompts` folder you downloaded, and open `DM_Main_Agent.md`.
+4. Copy all the text in that file and paste it into the "System Prompt" or "Instructions" box for your main agent.
+5. **IMPORTANT:** Give your Main Agent the ability to run terminal commands (like `run_command`). It needs this so it can run the `engine.py` script to do math and track your HP.
+
+### Step 3: Tell the DM Where the Engine Is
+1. In your first message to the DM, just say: "The game engine and campaign state are located at [Put the full path to the folder here, like C:\Users\sline\Documents\rpg_setup]." This makes sure the DM knows where to look.
+
+### Step 4: Create Your Party Members (Subagents)
+1. In Antigravity, create a new Subagent for your party member (like Lyra or Grom).
+2. Open `Party_Member_Subagent.md`, copy the text, and paste it into their System Prompt.
+3. Add a little extra sentence at the top of their prompt to tell them who they are. For example: "You are Lyra, a Cleric of the Cog. You are snarky but fiercely loyal."
+
+### Step 5: Start Playing!
+1. Go back to your Main DM Agent.
+2. Type: "I am ready to begin. Where am I and what do I see?"
+3. The DM will read the `campaign_state.json` file, figure out you are in the Clockwork District, and start narrating the game!
+4. Whenever you take a long rest, the DM will automatically wake up the Faction Leaders (if you made them using `Faction_Leader_Subagent.md`) to plot against you in the background.
+
+Have fun!
