@@ -128,7 +128,7 @@
             "role": "NPC Companion (Feral Half-Minotaur Half-Dragon Totemist)",
             "level": 3,
             "max_hp": 50,
-            "current_hp": 50,
+            "current_hp": 48,
             "ac": {
                 "total": 22,
                 "touch": 10,
@@ -163,8 +163,8 @@
                 "Multiattack",
                 "Improved Natural Attack (Claws)"
             ],
-            "x": 3,
-            "y": 4,
+            "x": 1,
+            "y": 1,
             "image": "grom.jpg"
         },
         {
@@ -184,10 +184,10 @@
             "role": "Enemy",
             "level": 2,
             "max_hp": 12,
-            "current_hp": 12,
+            "current_hp": 7,
             "image": "goblin.jpg",
             "x": 1,
-            "y": 1
+            "y": 0
         },
         {
             "id": "goblin_3",
@@ -195,7 +195,7 @@
             "role": "Enemy",
             "level": 2,
             "max_hp": 12,
-            "current_hp": 12,
+            "current_hp": 2,
             "image": "goblin.jpg",
             "x": 2,
             "y": 1
@@ -206,7 +206,7 @@
             "role": "Enemy",
             "level": 2,
             "max_hp": 12,
-            "current_hp": 12,
+            "current_hp": 2,
             "image": "goblin.jpg",
             "x": 3,
             "y": 1
