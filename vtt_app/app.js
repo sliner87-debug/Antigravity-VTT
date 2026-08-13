@@ -53,7 +53,7 @@ function updateToken(entity) {
 async function fetchState(repo) {
     // Generate the raw URL. Note: GitHub raw files are aggressively cached. 
     // Appending a cache-busting timestamp is necessary.
-    const url = `https://raw.githubusercontent.com/${repo}/main/campaign_state.json?t=${new Date().getTime()}`;
+    const url = `https://raw.githubusercontent.com/${repo}/master/campaign_state.json?t=${new Date().getTime()}`;
     
     try {
         const response = await fetch(url);
