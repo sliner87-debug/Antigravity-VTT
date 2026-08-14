@@ -9,8 +9,8 @@
         "current_hour": 17
     },
     "location": {
-        "current_region": "Sun-Ward Terraces",
-        "nearest_settlement": "Airspace over Lord Thorne's Villa"
+        "current_region": "Thunderhead Mountains",
+        "nearest_settlement": "Uncharted Cavern"
     },
     "entities": [
         {
@@ -43,13 +43,13 @@
                 "1,852 GP (and 5 SP)",
                 "Alchemical Silks (Size-Adjusting)",
                 "Runic Mantle (Chasuble of Fell Power)",
-                "5 Chunks of Refined Elemental Dragonshard",
-                "2 Masterwork Spell-Cylinders",
-                "6 Potions of Cure Moderate Wounds",
+                "25 Chunks of Refined Elemental Dragonshard",
+                "12 Masterwork Spell-Cylinders",
+                "66 Potions of Cure Moderate Wounds",
                 "1 Crate of Morrgoth's Black-Tar Thins (100 Cartons)",
                 "Masterwork Arcane Arquebus",
                 "Dead Mutant Corpse Flower",
-                "Assorted Exotic Botanical Reagents",
+                "Massive Assortment of multiple various 'X of Holding's type apparatuses, and Mass Assorted Exotic Botanical Reagents",
                 "Blackmail Ledger (High-Value Intel)",
                 "The Entire Contents of Lord Thorne's Master Bedroom (Furniture, Silks, Art)",
                 "Trapped Steel Wall-Safe (Intact, Unopened)"
@@ -127,7 +127,7 @@
                 "Spell Focus (Necromancy)"
             ],
             "x": 5,
-            "y": 9,
+            "y": 5,
             "image": "lyra.jpg"
         },
         {
@@ -173,7 +173,7 @@
                 "Improved Natural Attack (Claws)"
             ],
             "x": 5,
-            "y": 10,
+            "y": 5,
             "image": "grom.jpg"
         },
         {
@@ -184,7 +184,7 @@
             "max_hp": 22,
             "current_hp": 22,
             "x": 5,
-            "y": 7,
+            "y": 5,
             "image": "vex.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
@@ -197,8 +197,8 @@
             "level": 3,
             "max_hp": 14,
             "current_hp": 14,
-            "x": 6,
-            "y": 9,
+            "x": 5,
+            "y": 5,
             "image": "flay.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
@@ -211,8 +211,8 @@
             "level": 3,
             "max_hp": 16,
             "current_hp": 16,
-            "x": 2,
-            "y": 2,
+            "x": 5,
+            "y": 5,
             "image": "vivisect.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
