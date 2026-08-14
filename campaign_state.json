@@ -9,8 +9,8 @@
         "current_hour": 17
     },
     "location": {
-        "current_region": "Rune-Forge District",
-        "nearest_settlement": "Unlisted Iron-Rune Syndicate Warehouse"
+        "current_region": "Sun-Ward Terraces",
+        "nearest_settlement": "Airspace over Lord Thorne's Villa"
     },
     "entities": [
         {
@@ -46,7 +46,8 @@
                 "5 Chunks of Refined Elemental Dragonshard",
                 "2 Masterwork Spell-Cylinders",
                 "6 Potions of Cure Moderate Wounds",
-                "1 Crate of Morrgoth's Black-Tar Thins (100 Cartons)"
+                "1 Crate of Morrgoth's Black-Tar Thins (100 Cartons)",
+                "Masterwork Arcane Arquebus"
             ],
             "skills": [
                 "Bluff",
@@ -54,7 +55,8 @@
                 "Stealth",
                 "Use Magic Device",
                 "Fly",
-                "Intimidate"
+                "Intimidate",
+                "Pilot"
             ],
             "feats": [
                 "Fey Heritage (Free)",
@@ -104,7 +106,8 @@
                 "Scroll of Ray of Enfeeblement",
                 "Silver Holy Symbol",
                 "Scholar's Outfit",
-                "1,300 GP"
+                "1,300 GP",
+                "Masterwork Arcane Arquebus"
             ],
             "skills": [
                 "Knowledge (Arcana, Religion, Planes)",
@@ -150,7 +153,8 @@
                 "Masterwork Greataxe",
                 "Potion of Enlarge Person (x2)",
                 "Climber's Kit",
-                "1,250 GP"
+                "1,250 GP",
+                "Masterwork Arcane Arquebus"
             ],
             "skills": [
                 "Survival",
@@ -176,7 +180,10 @@
             "current_hp": 22,
             "x": 5,
             "y": 7,
-            "image": "vex.jpg"
+            "image": "vex.jpg",
+            "inventory": [
+                "Masterwork Arcane Arquebus"
+            ]
         },
         {
             "id": "party_member_4",
@@ -187,7 +194,10 @@
             "current_hp": 14,
             "x": 6,
             "y": 9,
-            "image": "flay.jpg"
+            "image": "flay.jpg",
+            "inventory": [
+                "Masterwork Arcane Arquebus"
+            ]
         },
         {
             "id": "party_member_5",
@@ -198,7 +208,10 @@
             "current_hp": 16,
             "x": 2,
             "y": 2,
-            "image": "vivisect.jpg"
+            "image": "vivisect.jpg",
+            "inventory": [
+                "Masterwork Arcane Arquebus"
+            ]
         },
         {
             "id": "npc_silas",
