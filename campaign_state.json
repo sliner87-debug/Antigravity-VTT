@@ -272,6 +272,16 @@
             "x": 4,
             "y": 3,
             "image": "guard.jpg"
+        },
+        {
+            "id": "npc_aberrant_husk",
+            "name": "Aberrant Husk (Elias)",
+            "type": "npc",
+            "x": 2,
+            "y": 2,
+            "hp": 85,
+            "max_hp": 85,
+            "inventory": []
         }
     ],
     "factions": [
