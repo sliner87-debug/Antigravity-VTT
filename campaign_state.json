@@ -2,15 +2,15 @@
     "campaign_info": {
         "name": "The Elemental Chronicles",
         "system": "Pathfinder 1E (w/ 3.5e Supplements)",
-        "setting": "Grimdark, High Fantasy / Eberron-style Primitive Magi-tech"
+        "setting": "Grimdark, High Fantasy / Eberron-style Arcane-Integrated"
     },
     "time": {
         "current_day": 1,
         "current_hour": 17
     },
     "location": {
-        "current_region": "Clockwork District",
-        "nearest_settlement": "Unlisted Iron Syndicate Warehouse"
+        "current_region": "Rune-Forge District",
+        "nearest_settlement": "Unlisted Iron-Rune Syndicate Warehouse"
     },
     "entities": [
         {
@@ -39,12 +39,12 @@
                 "Pixie Dust",
                 "Healing Salve",
                 "Unrefined Elemental Dragonshards (10 lbs)",
-                "Iron Syndicate Ledgers",
+                "Iron-Rune Syndicate Ledgers",
                 "1,852 GP (and 5 SP)",
                 "Alchemical Silks (Size-Adjusting)",
                 "Runic Mantle (Chasuble of Fell Power)",
                 "5 Chunks of Refined Elemental Dragonshard",
-                "2 Masterwork Runic Pistols",
+                "2 Masterwork Spell-Cylinders",
                 "6 Potions of Cure Moderate Wounds",
                 "1 Crate of Morrgoth's Black-Tar Thins (100 Cartons)"
             ],
@@ -145,7 +145,7 @@
             "inventory": [
                 "Incarnum Focus Bands",
                 "Leather Duster",
-                "Clockwork Lenses",
+                "Animus-Bound Lenses",
                 "Amulet of Mighty Fists +1",
                 "Masterwork Greataxe",
                 "Potion of Enlarge Person (x2)",
@@ -203,7 +203,7 @@
         {
             "id": "npc_silas",
             "name": "Silas",
-            "role": "NPC (Iron Syndicate)",
+            "role": "NPC (Iron-Rune Syndicate)",
             "level": 2,
             "max_hp": 12,
             "current_hp": 12,
@@ -259,8 +259,8 @@
     "factions": [
         {
             "id": "faction_1",
-            "name": "The Iron Syndicate",
-            "type": "Magi-tech Smugglers",
+            "name": "The Iron-Rune Syndicate",
+            "type": "Arcanomechanical Smugglers",
             "leader": "Baron Silas Vane",
             "resources": 500,
             "current_objective": "Monopolize aether-crystal trade in the lower districts",
@@ -272,7 +272,7 @@
             "type": "Militant Purists",
             "leader": "High Inquisitor Voss",
             "resources": 1000,
-            "current_objective": "Eradicate unregulated magi-tech devices",
+            "current_objective": "Eradicate unregulated arcanomechanical devices",
             "status": "Active"
         },
         {
