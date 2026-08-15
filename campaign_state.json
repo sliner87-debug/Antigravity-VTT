@@ -77,12 +77,12 @@
                 "The Dead Walk",
                 "Relentless Dispelling"
             ],
-            "x": 5,
-            "y": 8,
+            "x": 10,
+            "y": 18,
             "image": "kaelen.jpg",
             "position": {
-                "x": 5,
-                "y": 8
+                "x": 10,
+                "y": 18
             }
         },
         {
@@ -130,12 +130,12 @@
                 "Improved Initiative",
                 "Spell Focus (Necromancy)"
             ],
-            "x": 4,
-            "y": 9,
+            "x": 9,
+            "y": 19,
             "image": "lyra.jpg",
             "position": {
-                "x": 4,
-                "y": 9
+                "x": 9,
+                "y": 19
             }
         },
         {
@@ -180,12 +180,12 @@
                 "Multiattack",
                 "Improved Natural Attack (Claws)"
             ],
-            "x": 6,
-            "y": 8,
+            "x": 11,
+            "y": 18,
             "image": "grom.jpg",
             "position": {
-                "x": 6,
-                "y": 8
+                "x": 11,
+                "y": 18
             }
         },
         {
@@ -195,15 +195,15 @@
             "level": 3,
             "max_hp": 22,
             "current_hp": 22,
-            "x": 7,
-            "y": 9,
+            "x": 12,
+            "y": 19,
             "image": "vex.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
             ],
             "position": {
-                "x": 7,
-                "y": 9
+                "x": 12,
+                "y": 19
             }
         },
         {
@@ -213,15 +213,15 @@
             "level": 3,
             "max_hp": 14,
             "current_hp": 14,
-            "x": 6,
-            "y": 9,
+            "x": 11,
+            "y": 19,
             "image": "flay.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
             ],
             "position": {
-                "x": 6,
-                "y": 9
+                "x": 11,
+                "y": 19
             }
         },
         {
@@ -231,15 +231,15 @@
             "level": 3,
             "max_hp": 16,
             "current_hp": 16,
-            "x": 5,
-            "y": 9,
+            "x": 10,
+            "y": 19,
             "image": "vivisect.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
             ],
             "position": {
-                "x": 5,
-                "y": 9
+                "x": 10,
+                "y": 19
             }
         },
         {
@@ -337,6 +337,6 @@
             "status": "Active"
         }
     ],
-    "current_location": "The Void Peak Plateau",
-    "active_battlemap": "assets/void_peak_battlemap.jpg"
+    "current_location": "The Hidden Shrine of the Sky-God (Leyline Seal)",
+    "active_battlemap": "assets/leyline_seal_map.jpg"
 }
