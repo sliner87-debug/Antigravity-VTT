@@ -9,8 +9,8 @@
         "current_hour": 17
     },
     "location": {
-        "current_region": "Thunderhead Mountains",
-        "nearest_settlement": "Uncharted Cavern"
+        "current_region": "Lower Aqueducts",
+        "nearest_settlement": "Smog-Sump Access"
     },
     "entities": [
         {
@@ -78,7 +78,7 @@
                 "Relentless Dispelling"
             ],
             "x": 5,
-            "y": 5,
+            "y": 8,
             "image": "kaelen.jpg"
         },
         {
@@ -127,7 +127,7 @@
                 "Spell Focus (Necromancy)"
             ],
             "x": 5,
-            "y": 5,
+            "y": 8,
             "image": "lyra.jpg"
         },
         {
@@ -173,7 +173,7 @@
                 "Improved Natural Attack (Claws)"
             ],
             "x": 5,
-            "y": 5,
+            "y": 8,
             "image": "grom.jpg"
         },
         {
@@ -184,7 +184,7 @@
             "max_hp": 22,
             "current_hp": 22,
             "x": 5,
-            "y": 5,
+            "y": 8,
             "image": "vex.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
@@ -198,7 +198,7 @@
             "max_hp": 14,
             "current_hp": 14,
             "x": 5,
-            "y": 5,
+            "y": 8,
             "image": "flay.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
@@ -212,7 +212,7 @@
             "max_hp": 16,
             "current_hp": 16,
             "x": 5,
-            "y": 5,
+            "y": 8,
             "image": "vivisect.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
