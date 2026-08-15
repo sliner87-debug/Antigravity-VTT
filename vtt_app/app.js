@@ -70,9 +70,14 @@ async function fetchState(repo) {
         
         // Update battlemap
         if (state.active_battlemap) {
-            // Force cache busting on the image too
-            mapContainer.style.backgroundImage = `url('${state.active_battlemap}?t=${new Date().getTime()}')`;
+            // Check if we are on a local file system, avoid query parameters if so
+            if (window.location.protocol === 'file:') {
+                mapContainer.style.backgroundImage = `url('${state.active_battlemap}')`;
+            } else {
+                mapContainer.style.backgroundImage = `url('${state.active_battlemap}?t=${new Date().getTime()}')`;
+            }
             mapContainer.style.backgroundSize = 'cover';
+            mapContainer.style.backgroundPosition = 'center';
         }
     } catch (error) {
         console.error("Error fetching state:", error);
