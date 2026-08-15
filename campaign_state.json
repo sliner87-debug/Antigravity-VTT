@@ -130,8 +130,8 @@
                 "Improved Initiative",
                 "Spell Focus (Necromancy)"
             ],
-            "x": 5,
-            "y": 8,
+            "x": 4,
+            "y": 9,
             "image": "lyra.jpg",
             "position": {
                 "x": 4,
@@ -180,7 +180,7 @@
                 "Multiattack",
                 "Improved Natural Attack (Claws)"
             ],
-            "x": 5,
+            "x": 6,
             "y": 8,
             "image": "grom.jpg",
             "position": {
@@ -195,8 +195,8 @@
             "level": 3,
             "max_hp": 22,
             "current_hp": 22,
-            "x": 5,
-            "y": 8,
+            "x": 7,
+            "y": 9,
             "image": "vex.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
@@ -213,8 +213,8 @@
             "level": 3,
             "max_hp": 14,
             "current_hp": 14,
-            "x": 5,
-            "y": 8,
+            "x": 6,
+            "y": 9,
             "image": "flay.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
@@ -232,7 +232,7 @@
             "max_hp": 16,
             "current_hp": 16,
             "x": 5,
-            "y": 8,
+            "y": 9,
             "image": "vivisect.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"

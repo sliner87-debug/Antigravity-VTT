@@ -67,6 +67,13 @@ async function fetchState(repo) {
         if (state.entities && Array.isArray(state.entities)) {
             state.entities.forEach(updateToken);
         }
+        
+        // Update battlemap
+        if (state.active_battlemap) {
+            // Force cache busting on the image too
+            mapContainer.style.backgroundImage = `url('${state.active_battlemap}?t=${new Date().getTime()}')`;
+            mapContainer.style.backgroundSize = 'cover';
+        }
     } catch (error) {
         console.error("Error fetching state:", error);
     }
