@@ -79,7 +79,11 @@
             ],
             "x": 5,
             "y": 8,
-            "image": "kaelen.jpg"
+            "image": "kaelen.jpg",
+            "position": {
+                "x": 5,
+                "y": 8
+            }
         },
         {
             "id": "party_member_1",
@@ -128,7 +132,11 @@
             ],
             "x": 5,
             "y": 8,
-            "image": "lyra.jpg"
+            "image": "lyra.jpg",
+            "position": {
+                "x": 4,
+                "y": 9
+            }
         },
         {
             "id": "party_member_2",
@@ -174,7 +182,11 @@
             ],
             "x": 5,
             "y": 8,
-            "image": "grom.jpg"
+            "image": "grom.jpg",
+            "position": {
+                "x": 6,
+                "y": 8
+            }
         },
         {
             "id": "party_member_3",
@@ -188,7 +200,11 @@
             "image": "vex.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
-            ]
+            ],
+            "position": {
+                "x": 7,
+                "y": 9
+            }
         },
         {
             "id": "party_member_4",
@@ -202,7 +218,11 @@
             "image": "flay.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
-            ]
+            ],
+            "position": {
+                "x": 6,
+                "y": 9
+            }
         },
         {
             "id": "party_member_5",
@@ -216,7 +236,11 @@
             "image": "vivisect.jpg",
             "inventory": [
                 "Masterwork Arcane Arquebus"
-            ]
+            ],
+            "position": {
+                "x": 5,
+                "y": 9
+            }
         },
         {
             "id": "npc_silas",
@@ -312,5 +336,7 @@
             "current_objective": "Find and retrieve the 5 Pieces of the Far-Realm Gate Artifact.",
             "status": "Active"
         }
-    ]
+    ],
+    "current_location": "The Void Peak Plateau",
+    "active_battlemap": "assets/void_peak_battlemap.jpg"
 }

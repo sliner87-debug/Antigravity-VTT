@@ -1,0 +1,1 @@
+We have a live VTT configured now. From now on during combat, whenever a character or enemy moves, please use `python engine.py move <id> <x> <y>` to update their position. Whenever someone takes damage or heals, please use `python engine.py update_hp <id> <amount>`. The engine will automatically push the changes to GitHub and update my live map!

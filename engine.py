@@ -25,6 +25,15 @@ def roll_dice(sides, count=1):
     print(json.dumps({"action": "roll_dice", "sides": sides, "count": count, "rolls": rolls, "total": total}))
     return total
 
+def sync_vtt(message):
+    try:
+        subprocess.run(["git", "add", STATE_FILE], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "commit", "-m", f"VTT: {message}"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "push"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        print(json.dumps({"vtt_sync": "success"}))
+    except subprocess.CalledProcessError as e:
+        print(json.dumps({"vtt_sync": "failed", "error": str(e)}))
+
 def update_hp(entity_id, amount):
     """Updates HP for a player, party member, or known NPC."""
     state = load_state()
@@ -39,6 +48,7 @@ def update_hp(entity_id, amount):
             
             save_state(state)
             print(json.dumps({"action": "update_hp", "entity": entity_id, "new_hp": entity["current_hp"]}))
+            sync_vtt(f"HP Update for {entity_id}")
             return
     print(json.dumps({"error": f"Entity {entity_id} not found."}))
 
@@ -76,15 +86,7 @@ def move_entity(entity_id, x, y):
     
     save_state(state)
     print(json.dumps({"action": "move_entity", "entity": entity_id, "x": int(x), "y": int(y)}))
-    
-    # Git push logic
-    try:
-        subprocess.run(["git", "add", STATE_FILE], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        subprocess.run(["git", "commit", "-m", f"VTT: Moved {entity_id} to {x}, {y}"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        subprocess.run(["git", "push"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        print(json.dumps({"vtt_sync": "success"}))
-    except subprocess.CalledProcessError as e:
-        print(json.dumps({"vtt_sync": "failed", "error": str(e)}))
+    sync_vtt(f"Moved {entity_id} to {x}, {y}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
