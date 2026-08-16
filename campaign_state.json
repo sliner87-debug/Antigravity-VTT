@@ -18,8 +18,8 @@
             "name": "Kaelen",
             "role": "Player (Phrenic Pixie Warlock)",
             "level": 7,
-            "max_hp": 35,
-            "current_hp": 35,
+            "max_hp": 42,
+            "current_hp": 42,
             "ac": {
                 "total": 24,
                 "touch": 18,
